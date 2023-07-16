@@ -38,7 +38,7 @@ public class Vector {
      * @return Нахождение длинны вектора
      */
     public double vectorLength() {
-        return sqrt(x * x + y * y + z * z);
+        return Math.sqrt(x * x + y * y + z * z);
     }
 
     /**
